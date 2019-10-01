@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Base Test",
+    "line": 1,
+    "id": "base-test",
+    "tags": [],
+    "uri": "/Users/alejo/Documents/Proyectos/POC/angular-base-project/features/Base.feature",
+    "elements": [
+      {
+        "id": "base-test;testing-simple-app",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Testing simple app",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I want to sum an unknown number with: 10",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I send the numbers",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "The sum is greater than the original number",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
